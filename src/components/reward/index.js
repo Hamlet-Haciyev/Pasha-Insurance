@@ -53,7 +53,7 @@ const RewardsCard = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 98px;
+  height: 95px;
   border-bottom: 1px solid #e9e7e7;
   padding: 0 25px;
 `;

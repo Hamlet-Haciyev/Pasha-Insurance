@@ -9,16 +9,22 @@ export const Footer = () => {
       <RoutesSection>
         <PageLinkGroup>
           <PageLink>
-            <Icon name={"home"} />
-            <Link to="/">Home</Link>
+            <Link to="/">
+              <Icon name={"home"} />
+              Home
+            </Link>
           </PageLink>
           <PageLink>
-            <Icon name={"reward"} />
-            <Link to="/rewards">Rewards</Link>
+            <Link to="/rewards">
+              <Icon name={"reward"} />
+              Rewards
+            </Link>
           </PageLink>
           <PageLink>
-            <Icon name={"history"} />
-            <Link to="/history">History</Link>
+            <Link to="/history">
+              <Icon name={"history"} />
+              History
+            </Link>
           </PageLink>
         </PageLinkGroup>
       </RoutesSection>
@@ -51,7 +57,9 @@ const PageLinkGroup = styled.div`
   /* margin: 0 auto; */
 `;
 const PageLink = styled.div`
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  a {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
 `;
