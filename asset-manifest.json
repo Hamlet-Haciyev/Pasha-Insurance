@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Pasha-Insurance/static/css/main.e667fccb.css",
+    "main.js": "/Pasha-Insurance/static/js/main.82e8861f.js",
+    "index.html": "/Pasha-Insurance/index.html",
+    "main.e667fccb.css.map": "/Pasha-Insurance/static/css/main.e667fccb.css.map",
+    "main.82e8861f.js.map": "/Pasha-Insurance/static/js/main.82e8861f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e667fccb.css",
+    "static/js/main.82e8861f.js"
+  ]
+}
