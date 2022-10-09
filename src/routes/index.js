@@ -9,7 +9,8 @@ const RoutesApp = () => {
       <Route path="/" element={<Home />}></Route>
       <Route path="/rewards" element={<PashaRewards />}></Route>
       <Route path="/history" element={<HistoryLayout />}></Route>
-      <Route path="*" element={<div>Error</div>}></Route>
+      <Route path="/Pasha-Insurance" element={<Home />}></Route>
+      <Route path="/*" element={<div>Error</div>}></Route>
     </Routes>
   );
 };
