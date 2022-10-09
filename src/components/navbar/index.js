@@ -55,6 +55,7 @@ export const Navbar = () => {
       </Container>
       <Routes>
         <Route path={"/"} element={<StepStatistics />}></Route>
+        <Route path={"/Pasha-Insurance"} element={<StepStatistics />}></Route>
         <Route path={"/rewards"} element={<Search />}></Route>
         {/* <Route path={"/history"} element={<h4>History</h4>}></Route> */}
       </Routes>
