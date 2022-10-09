@@ -36,6 +36,19 @@ export const Navbar = () => {
                   }
                 ></Route>
                 <Route
+                  path="/Pasha-Insurance"
+                  element={
+                    <div style={{ marginLeft: ".2rem" }}>
+                      <Firstname>
+                        {userName && userName[0]?.userId.name}
+                      </Firstname>
+                      <Lastname>
+                        {userName && userName[0]?.userId.surname}
+                      </Lastname>
+                    </div>
+                  }
+                ></Route>
+                <Route
                   path="/rewards"
                   element={<PartnerHeader>Partners</PartnerHeader>}
                 ></Route>
