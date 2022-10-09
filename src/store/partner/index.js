@@ -15,7 +15,7 @@ const PartnerSlice = createSlice({
   },
   extraReducers: {
     [getAllPartner.fulfilled]: (state, action) => {
-      state.data = action.payload;
+      state.data = action.payload.slice(0, 6);
       state.loading = true;
     },
     [getAllPartner.pending]: (state, action) => {

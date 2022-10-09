@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const History = () => {
   return (
     <HistoryCompContainer>
-      <span>Stats for September 15</span>
+      <span>Stats for October 8</span>
       <StepsContainer>
         <StepsCounter>
           <span>Steps</span>

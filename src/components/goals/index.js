@@ -7,9 +7,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { getAllHistory } from "../../store/history";
 export const Goal = () => {
   const goals = useSelector((state) => state.history.data);
-  // const doneCount = useSelector((state) => state.history.doneCount);
   const dispatch = useDispatch();
-  // const [done, setDone] = useState(doneCount);
 
   useEffect(() => {
     dispatch(getAllHistory());
