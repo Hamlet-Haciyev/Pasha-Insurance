@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Pasha-Insurance/static/css/main.e667fccb.css",
-    "main.js": "/Pasha-Insurance/static/js/main.a7f9a29b.js",
+    "main.js": "/Pasha-Insurance/static/js/main.8c88b6af.js",
     "index.html": "/Pasha-Insurance/index.html",
     "main.e667fccb.css.map": "/Pasha-Insurance/static/css/main.e667fccb.css.map",
-    "main.a7f9a29b.js.map": "/Pasha-Insurance/static/js/main.a7f9a29b.js.map"
+    "main.8c88b6af.js.map": "/Pasha-Insurance/static/js/main.8c88b6af.js.map"
   },
   "entrypoints": [
     "static/css/main.e667fccb.css",
-    "static/js/main.a7f9a29b.js"
+    "static/js/main.8c88b6af.js"
   ]
 }
