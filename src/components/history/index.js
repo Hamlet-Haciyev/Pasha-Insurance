@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-
+import { Notification } from "../";
 export const History = () => {
   return (
     <HistoryCompContainer>
@@ -43,7 +43,7 @@ export const History = () => {
         </HistorySeqments>
       </ActivitiesInfos>
 
-      <Button>See more</Button>
+      <Button onClick={Notification}>See more</Button>
     </HistoryCompContainer>
   );
 };
@@ -118,6 +118,7 @@ const Button = styled.button`
   font-weight: 600;
   font-size: 15px;
   border-radius: 7px;
+  margin-bottom: 100px;
   cursor: pointer;
 `;
 

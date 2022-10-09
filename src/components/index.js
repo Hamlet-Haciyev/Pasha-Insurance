@@ -9,3 +9,4 @@ export { News } from "./news";
 export { Search } from "./search";
 export { Reward } from "./reward";
 export { History } from "./history";
+export { Notification } from "./notification";

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import styled from "styled-components";
-import { Progress } from "../";
+import { Progress, Notification } from "../";
 import { Container } from "../../GlobalStyled";
 import Icon from "../../helpers/icon";
 import { useDispatch, useSelector } from "react-redux";
@@ -30,6 +30,7 @@ export const Activities = () => {
                 justifyContent: "center",
                 alignItems: "center",
               }}
+              onClick={Notification}
             >
               <Icon name={"questionmark"} />
             </span>

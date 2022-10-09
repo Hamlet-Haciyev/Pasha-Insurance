@@ -5,6 +5,7 @@ import { Progress } from "antd";
 import Icon from "../../helpers/icon";
 import { useDispatch, useSelector } from "react-redux";
 import { getAllHistory } from "../../store/history";
+import { Notification } from "../";
 export const Goal = () => {
   const goals = useSelector((state) => state.history.data);
   const dispatch = useDispatch();
@@ -18,7 +19,7 @@ export const Goal = () => {
       <GoalView>
         <GoalHeader>
           <h4>Daily Goals</h4>
-          <span>
+          <span onClick={Notification}>
             <Icon name={"rightArrow"} />
           </span>
         </GoalHeader>

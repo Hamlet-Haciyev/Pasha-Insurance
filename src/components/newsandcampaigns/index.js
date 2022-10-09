@@ -1,5 +1,5 @@
 import React from "react";
-import { News } from "../";
+import { News, Notification } from "../";
 import styled from "styled-components";
 import { Container } from "../../GlobalStyled";
 
@@ -10,7 +10,9 @@ export const NewsAndCampaigns = () => {
         <SubNCampaigns>
           <NewsAndCampaignsCont>
             <span>News and Campaigns</span>
-            <a href="/#">See All</a>
+            <span className="seeAll" onClick={Notification}>
+              See All
+            </span>
           </NewsAndCampaignsCont>
           <NewsItemContainer>
             <News itemName="New Partners!" itemLogoName={"newPartners"} />
@@ -42,11 +44,12 @@ const NewsAndCampaignsCont = styled.div`
     font-weight: 600;
     font-size: 16px;
   }
-  a {
+  .seeAll {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     color: #199cb4;
+    cursor: pointer;
   }
 `;
 

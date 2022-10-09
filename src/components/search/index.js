@@ -3,6 +3,7 @@ import Icon from "../../helpers/icon";
 import styled from "styled-components";
 // import Input from "antd/lib/input/Input";
 import { Input } from "antd";
+import { Notification } from "../";
 export const Search = () => {
   return (
     <SearchingContainer>
@@ -23,7 +24,7 @@ export const Search = () => {
           />
         </InputContainer>
       </SearchingSubContainer>
-      <SettingsContainer>
+      <SettingsContainer onClick={Notification}>
         <Icon name="settings" />
       </SettingsContainer>
     </SearchingContainer>
